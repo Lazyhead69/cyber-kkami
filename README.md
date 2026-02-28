@@ -5,9 +5,10 @@ This repository versions the system prompts and assets for the **Cyber-Kkami** p
 ## 📂 Project Structure
 
 - **`00_core_prompts/`**:
-  - `optimized_script_engine_v1.md`: (v3) Narrative architect with Adult Maturity & Technical Anchoring protocols.
-  - `optimized_v5_cgi.md`: (v7) Visual specialist with "Techno-Thriller" aesthetic and architectural rendering.
-  - `optimized_thumbnail_specialist_v1.md`: (v1) YouTube Thumbnail Specialist optimized for high-CTR and mobile Hangul.
+  - `00_factory_controller.md`: Central orchestrator for the entire production pipeline.
+  - `01_script_engine.md`: (v3) Narrative architect with Adult Maturity & Technical Anchoring protocols.
+  - `02_image_engine.md`: (v7) Visual specialist with "Techno-Thriller" aesthetic and architectural rendering.
+  - `03_thumbnail_engine.md`: (v2) YouTube Thumbnail Specialist with strict character consistency and high-CTR codes.
 - **`01_translations/`**: Source scripts and translations in various languages.
   - `korean_original.md`: Original core instructions in Korean.
   - `english_translation.md`: Standard English translation of the core instructions.
