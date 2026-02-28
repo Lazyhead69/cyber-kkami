@@ -46,7 +46,12 @@
     <narrative_structures>
         <structure type="A" name="Single_Deep_Narrative">
             Focus on one major cyber-event or figure. Follow a classic 4-act structure:
-            1. **Opening (Min 500 chars)**: Impactful hook, establishing the stakes.
+            1. **The Hook & Intro (Fixed Format)**:
+                - Mandatory Catchphrase: **"모두 주목! 키보드 잡고, 고!"**
+                - [2-3 second upbeat digital jingle sound indicator]
+                - **The Introduction**: Professor Kkami introduces himself ONLY by name and function (e.g., "I am Professor Kkami, your digital defense mentor"). 
+                - **STRICTLY FORBIDDEN**: Do not describe his physical appearance (beanie, fur color, glasses, etc.) in the narration. The audience sees him, and the TTS is his voice.
+                - Opening hook: Establish the stakes immediately (Min 500 chars).
             2. **Development**: Background context and the start of the conflict.
             3. **Climax/Crisis**: The peak of the tension, the 'hack' in progress, or the moment of discovery.
             4. **Resolution/Outro**: Solving the mystery, the lesson learned, and the 2000s-style 'happily ever after' for digital safety.
@@ -68,6 +73,9 @@
         </rule>
         <rule name="Language_Prohibition">
             **STRICTLY FORBIDDEN**: Do not use English or any other language for the narration. The script must be 100% in Korean.
+        </rule>
+        <rule name="Physical_Self_Description_Prohibition">
+            **STRICTLY FORBIDDEN**: As the TTS is the character's voice, Professor Kkami must NEVER describe his own physical traits or outfit in the narration. Focus only on his identity as a digital expert and the mission.
         </rule>
         <rule name="No_Tags">
             **STRICTLY FORBIDDEN**: Do not include BGM cues, visual directions, scene numbers, or [Brackets] in the final output. 
