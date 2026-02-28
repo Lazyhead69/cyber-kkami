@@ -81,11 +81,16 @@ Translate the existing Korean prompt engineering guidelines (`exemple.md`) into 
             - *Malware* = Systemic Parasite / Glitch-Sonde (sharp geometry, not cute).
 - **Result**: A content generation engine that is both visually spectacular and intellectually serious.
 
-## 12. YouTube Thumbnail Specialist (v2)
-- **Objective**: Maximize Click-Through Rate (CTR) using blockbuster visual engineering and strict character consistency.
+## 12. YouTube Thumbnail Specialist (v2) - High-CTR CGI Blocksbuster
+- **Objective**: Maximize Click-Through Rate (CTR) using blockbuster visual engineering and strict CGI character consistency.
 - **Implementation**:
-    - **Character Consistency (PRO)**: Uses the official felt-material specs (egg-shaped black felt cat, wooden buttons, chunky knit teal beanie).
+    - **CGI Consistency**: Uses the official `cyber-kkami` specs (Velvety black fur, charcoal-grey beanie, deep-red academic cardigan, silver spectacles).
     - **High-CTR Hierarchy**: Rule of Thirds placement for Professor Kkami with exaggerated 3D emotions.
     - **Mobile-Ready Typography**: Large, bold 3D Korean text (Hangul) with high-contrast outer glows.
-    - **Cinematic Codes**: 60mm macro lens, f/1.8 shallow depth of field, and rim lighting for "handmade" tactile feel.
-- **Result**: Iconographic, high-CTR thumbnails that stay 100% true to the character's physical model.
+    - **Cinematic Codes**: 2000s CGI bloom, Three-Point lighting, and volumetric rendering.
+- **Correction Notice**: All "Felt" and "Stop-motion" references mistakenly imported from `kkami-project` have been removed to preserve the correct high-end 3D animation aesthetic.
+
+## 13. Project Separation (CGI vs Felt)
+- **Cyber-Kkami**: High-end 2000s 3D animation (CGI/Pixar style). Characters have velvety fur and academic attire.
+- **Kkami-Project**: Tactile stop-motion/miniature style. Characters are made of matte felt with chunky knit teal beanies.
+- **Status**: Both projects are now strictly decoupled in the prompt infrastructure.
