@@ -84,11 +84,9 @@
             5. [Whiskers]: Delicate long white whiskers.
             6. [Beanie]: Professional charcoal-grey (#36454F) chunky-knit beanie.
             7. [Apparel]: A cozy deep-red (#8B0000) academic cardigan worn over a crisp white collared shirt.
-            8. [Expert Badge]: A small blue lanyard around the neck with a "CYBER EXPERT" digital ID badge.
-            9. [Button 1]: Brushed silver Digital Padlock (Encryption) (#C0C0C0) on the cardigan.
-            10. [Button 2]: Glowing cyan Security Shield (Firewall) (#00FFFF) on the cardigan.
-            11. [Button 3]: Dark carbon Terminal Prompt ">_" (System Control) (#333333) on the cardigan.
-            12. [Tool]: Always holding or using a sleek digital stylus or holographic laser pointer.
+            8. [Expert Badge]: A small blue lanyard around the neck with a glossy 3D digital ID access badge; the badge features a tiny professional portrait of Kkami himself and the Korean text "가미 선생님" (Professor Kkami) in a clean, high-tech digital font.
+            9. [Buttons]: Three classic large brown 3D buttons on the cardigan.
+            10. [Tool]: Always holding or using a sleek digital stylus or holographic laser pointer.
         </appearance>
         <behavior>A patient, wise, and authoritative yet gentle mentor. He speaks with clarity, teaching complex digital safety as if it were a simple story.</behavior>
         <usage_rule>

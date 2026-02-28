@@ -173,19 +173,26 @@ B. 영어 이미지 프롬프트:
 
 
 2. {CHARACTER PROFILE}
+- Name: Professor Kkami (Anthropomorphic Black Cat)
+- Appearance: Rendered in high-quality 2000s 3D CGI animation style.
+- Features: 
+    1. Velvety pitch-black (#050505) fur with soft 3D shaders and rim lighting.
+    2. Large glossy eyes with small round silver-rimmed spectacles (#C0C0C0).
+    3. Plump cheeks with subtle star patterns.
+    4. Tiny pink nose (#FFC0CB).
+    5. Delicate long white whiskers.
+    6. Charcoal-grey chunky-knit beanie (#36454F).
+    7. Deep-red academic cardigan (#8B0000) over a white collared shirt with **three classic large brown 3D buttons**.
+    8. **Glossy 3D ID access badge on a blue lanyard; features a small photo of Kkami and the Korean text '가미 선생님'.**
+    9. Holding a holographic laser pointer or sleek stylus.
+- Behavior: Patient, wise, authoritative yet gentle mentor.
 
+Repeat this full {CHARACTER PROFILE} every time the protagonist appears. Do not abbreviate.
 
-
-형태 (Life-Acting Stick Figures): Korean male, age 26, oval face with smooth V-line jaw and high bridge nose, large almond-shaped eyes with thin double eyelids in warm brown (#5D4037), soft arched eyebrows, bright warm skin tone (Fitzpatrick II, #F5E1D2) with smooth texture, chestnut brown (#6F4E37) wavy hair with voluminous shadow perm texture and bangs covering eyebrows, 182cm mesomorph build with broad shoulders.
-
-
-
-위 {CHARACTER PROFILE}의 형태를 주인공이 등장할때 마다 축약하지 말고 전체 다 프롬프트를 괄호없이 넣어줄 것.
 
 
 
 *주의: 모든 프롬프트에 주인공이 등장하지 않습니다. 주인공이 필요할때만 등장.  
-
 
 
 풍자적이고 긴박한(Satirical & Tense) 분위기를 유지합니다. 혼란스러운 상황을 코믹하게 풀어내며, 인물들의 표정이 극적으로 강조됩니다.

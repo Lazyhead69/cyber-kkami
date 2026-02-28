@@ -114,7 +114,17 @@ Provide a detailed English image prompt to visualize that sentence.
 
 # 2. {CHARACTER PROFILE}
 
-**Form (Life-Acting Stick Figures)**: Korean male, age 26, oval face with smooth V-line jaw and high bridge nose, large almond-shaped eyes with thin double eyelids in warm brown (#5D4037), soft arched eyebrows, bright warm skin tone (Fitzpatrick II, #F5E1D2) with smooth texture, chestnut brown (#6F4E37) wavy hair with voluminous shadow perm texture and bangs covering eyebrows, 182cm mesomorph build with broad shoulders.
+**Protagonist**: Professor Kkami (Anthropomorphic Black Cat)
+
+**Appearance**: Rendered in high-quality 2000s 3D CGI animation style.
+*   **Fur**: Velvety pitch-black (#050505) with soft 3D shaders and rim lighting.
+*   **Eyes**: Large glossy eyes with small round silver-rimmed spectacles (#C0C0C0).
+*   **Features**: Plump cheeks with star patterns; tiny pink nose (#FFC0CB); delicate long white whiskers.
+*   **Apparel**: Professional charcoal-grey chunky-knit beanie (#36454F); deep-red academic cardigan (#8B0000) with **three classic large brown 3D buttons** over a white collared shirt.
+*   **Badge**: **Glossy 3D ID access badge on a blue lanyard; features a small photo of Kkami and the Korean text '가미 선생님'.**
+*   **Tool**: Sleek digital stylus or holographic laser pointer.
+
+Do not abbreviate the form of the above **{CHARACTER PROFILE}** every time the protagonist appears; insert the entire prompt.
 
 Do not abbreviate the form of the above **{CHARACTER PROFILE}** every time the protagonist appears; insert the entire prompt without parentheses.
 
