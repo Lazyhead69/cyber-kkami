@@ -28,6 +28,7 @@ Call the **Factory Controller** with these shortcuts to trigger specific product
 - **@thumbnail**: Generate High-CTR thumbnail.
 - **@shorts**: Generate 9:16 viral moment packages.
 - **@music**: Generate themes and BGM scores.
+- **@srt**: Generate precisely timed SRT subtitle files.
 - **@full**: Run the complete pipeline in one go.
 
 ## 🎨 Global Art Direction
