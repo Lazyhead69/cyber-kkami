@@ -40,3 +40,10 @@ Translate the existing Korean prompt engineering guidelines (`exemple.md`) into 
     - Integrated a **"Narrative Architect"** persona focused on Professor Kkami's YouTube channel.
     - Strictly enforced the **8,000+ character length** and **Pure TTS Output** (no tags) protocols.
     - Maintained consistency with the 2000s Animation style guide.
+
+## 8. Standardized Introduction & Catchphrase
+- **Objective**: Ensure Professor Kkami has a consistent and professional opening.
+- **Implementation**:
+    - Mandatory Catchphrase: **"모두 주목! 키보드 잡고, 고!"** (Everyone attention! Grab your keyboard, go!).
+    - Added a mandatory 2-3 second digital jingle placeholder after the catchphrase.
+    - **Physical Description Ban**: Prohibited the character from describing his own outfit/appearance in the narration, as the TTS represents his own voice and he is visually present.

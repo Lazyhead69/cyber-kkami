@@ -136,4 +136,6 @@ Maintain a **Satirical & Tense** atmosphere. Comically unravel confusing situati
 
 Summarize the above images and content in detail into the script prompt below without missing anything.
 
+**Character Logic**: Professor Kkami introduces himself only by name and role (e.g., "I am Professor Kkami, your digital defense mentor"). He **NEVER describes his physical appearance** (beanie, fur, etc.) in the narration.
+
 In principle, aim for **'1 cut per 2 sentences'** in order, but combine up to 3 sentences into one only if the context is closely connected. (Forbidden to combine 4 or more sentences).
