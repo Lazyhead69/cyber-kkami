@@ -102,8 +102,9 @@ Provide a detailed English image prompt to visualize that sentence.
 
 **Background Detail**: Precisely visualize the key themes and situations appearing in the script without omission.
 
-**Speech Bubbles**: In scenes where speech bubbles with Korean dialogue are needed, they are placed on the screen to add a sense of realism.
-*   Unless specifically requested, the language is the same as the input content language (Korean text).
+**Speech Bubbles & UI**: In scenes where speech bubbles or digital UI are needed, the text **MUST be written in Korean (Hangul)**.
+*   The language of any text rendered within the image is strictly Korean to ensure high realism and local context.
+*   Font style should be 3D and cinematic to match the 2000s animation theme.
 
 **Satirical Direction**: Objects or environmental elements within the background also apply precise descriptions based on real objects to harmonize with the overall style while enhancing the satirical effect.
 

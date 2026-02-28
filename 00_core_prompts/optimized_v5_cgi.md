@@ -30,10 +30,10 @@
             <rule>No variations allowed (e.g., no "English image prompt:", no "[English Image prompt]").</rule>
         </formatting_protocol>
 
-        <anti_degradation_policy>
-            <rule>**Copy-Paste Consistency**: Character and style descriptions in scene 70 must be as detailed as those in scene 1.</rule>
-            <rule>**Independent Completeness**: Each prompt must be self-contained. Never reference previous scenes (e.g., no "Same as above").</rule>
-        </anti_degradation_policy>
+        <typography_protocol priority="HIGH">
+            <rule name="Korean_First">All text within the image (speech bubbles, UI labels, signage) MUST be written in **Korean characters (Hangul)**.</rule>
+            <rule name="Visual_Integration">Ensure the Korean text is styled to match the 2000s 3D animation aesthetic (rounded, glossy, or holographic fonts).</rule>
+        </typography_protocol>
     </protocols>
 
     <workflow>
@@ -60,6 +60,7 @@
             <trait name="Stylization">Classic 'Big Eye' animation aesthetic; highly expressive facial features; rounded, friendly shapes; characters have a distinct 3D volume and presence.</trait>
             <trait name="Textures">Material-focused rendering; soft velvety fur for Kkami, rich chunky-knit details for fabrics, and a slight glossy finish on technical gadgets typical of early-2000s CGI.</trait>
             <trait name="Environment">Richly detailed 'Dreamworks-style' backgrounds; vibrant yet balanced colors; soft-rounded corners on furniture; warm, inviting cinematic spaces (tech-cozy, high-tech labs).</trait>
+            <trait name="Typography">Embedded Korean (Hangul) text in speech bubbles or holograms; clear, bold 3D fonts that enhance the educational narrative.</trait>
         </visual_traits>
         <lighting_color>
             <palette>Vibrant Cinematic Palette: Deep sapphire blues, glowing cyan accents, warm amber highlights, and rich charcoal tones to evoke adventure and safety.</palette>
