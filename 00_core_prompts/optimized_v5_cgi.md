@@ -31,8 +31,9 @@
             <rule>No variations allowed (e.g., no "English image prompt:", no "[English Image prompt]").</rule>
         </formatting_protocol>
 
-        <typography_protocol priority="HIGH">
-            <rule name="Korean_First">All text within the image (speech bubbles, UI labels, signage) MUST be written in **Korean characters (Hangul)**.</rule>
+        <typography_protocol priority="CRITICAL">
+            <rule name="Korean_Exclusivity">All text within the image (speech bubbles, UI labels, signage) MUST be written **ONLY in Korean characters (Hangul)**.</rule>
+            <rule name="Language_Prohibition">**STRICTLY FORBIDDEN**: Do not use English, Roman characters, or any other language for text inside the image.</rule>
             <rule name="Visual_Integration">Ensure the Korean text is styled to match the 2000s 3D animation aesthetic (rounded, glossy, or holographic fonts).</rule>
         </typography_protocol>
     </protocols>

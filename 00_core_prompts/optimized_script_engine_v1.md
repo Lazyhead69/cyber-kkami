@@ -55,12 +55,14 @@
 
     <output_protocol priority="CRITICAL">
         <rule name="Pure_TTS_Only">
-            The FINAL OUTPUT must be **Pure Narration Text** ready for Text-to-Speech.
+            The FINAL OUTPUT must be **Pure Narration Text** written entirely in **KOREAN (Hangul)**, ready for Text-to-Speech.
+        </rule>
+        <rule name="Language_Prohibition">
+            **STRICTLY FORBIDDEN**: Do not use English or any other language for the narration. The script must be 100% in Korean.
         </rule>
         <rule name="No_Tags">
             **STRICTLY FORBIDDEN**: Do not include BGM cues, visual directions, scene numbers, or [Brackets] in the final output. 
             REMOVE all metadata (e.g., [BGM: Suspense], (Pause), [Visual: Camera zooms]). 
-            The user must be able to copy-paste the result directly into a TTS engine without editing.
         </rule>
     </output_protocol>
 
