@@ -83,6 +83,9 @@
             **STRICTLY FORBIDDEN**: Do not include BGM cues, visual directions, scene numbers, or [Brackets] in the final output. 
             REMOVE all metadata (e.g., [BGM: Suspense], (Pause), [Visual: Camera zooms]). 
         </rule>
+        <rule name="No_Digits">
+            **STRICTLY FORBIDDEN**: Do not use Arabic numerals (0-9). All numbers, dates, and years must be written out entirely in **KOREAN (Hangul)** characters (e.g., '2024' should be '이천이십사년', '3 points' should be '세 가지 포인트').
+        </rule>
     </output_protocol>
 
     <style_guide_reference>

@@ -48,3 +48,9 @@ Translate the existing Korean prompt engineering guidelines (`exemple.md`) into 
     - Mandatory Closing catchphrase: **"수고하셨어요! 머리 좀 식히고, 충전하러 고!"** (Great job! Cool your head, and go recharge!).
     - Added a mandatory 2-3 second digital jingle placeholder after the catchphrase.
     - **Physical Description Ban**: Prohibited the character from describing his own outfit/appearance in the narration, as the TTS represents his own voice and he is visually present.
+
+## 9. TTS Optimization: No Digits Policy
+- **Objective**: Improve the quality and naturalness of the Text-to-Speech (TTS) output.
+- **Implementation**:
+    - **No Digits Rule**: Prohibited the use of Arabic numerals (0-9). All numbers, dates, and years must be written out entirely in **Korean characters (Hangul)**.
+    - This ensures the TTS engine reads numbers correctly according to the context (e.g., years vs. cardinal numbers).
