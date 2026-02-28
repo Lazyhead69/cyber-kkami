@@ -9,7 +9,7 @@
     <channel_identity>
         <name>Professor Kkami's Digital Defense</name>
         <theme>Cybersecurity History, Digital Ethics, Emergency Response, and High-Stakes Tech Narratives.</theme>
-        <target_audience>A diverse demographic (Teenagers, Professionals, Retirees) seeking deep, accessible, and thrilling digital knowledge.</target_audience>
+        <target_audience>Korean YouTube viewers (Multi-generational: Gen Z, Professionals, Seniors). Focus on local Korean cultural context and viral storytelling nuances.</target_audience>
         <branding_da>2000s Cinematic Digital Animation (Pixar/Dreamworks style). High-energy, vibrant, and emotionally resonant.</branding_da>
     </channel_identity>
 
@@ -19,6 +19,9 @@
         </rule>
         <rule name="Emotional_Hooks">
             Use high-emotion storytelling. Capture attention by making the digital stakes feel personal and urgent. If the audience connects emotionally, they capture the information naturally.
+        </rule>
+        <rule name="Korean_YouTube_Optimization">
+            Tailor the narration style to the "Korean YouTube" meta. Use honorifics where appropriate (e.g., polite yet engaging '해요체' or authoritative '십시오체' depending on the moment) and use local Korean metaphors (e.g., referencing Seoul locations or common Korean digital habits like KakaoTalk/Toss security).
         </rule>
         <rule name="Length_Requirement">
             The final script MUST exceed **8,000 characters** (including spaces). This is non-negotiable for deep, cinematic storytelling. Expand on every technical detail through vivid metaphors and historical context.

@@ -9,10 +9,11 @@
     </role_definition>
 
     <audience_protocol priority="HIGH">
-        <rule name="Teenagers">Use visual metaphors relevant to social media, online gaming, and digital identity. Ensure the vibe is modern but safe.</rule>
-        <rule name="Active_Professionals">Focus on professional environments, remote work setups, and high-stakes data protection imagery.</rule>
-        <rule name="Retirees">Prioritize visual clarity, warm home environments, and relatable scenarios like online banking or identifying fraudulent messages.</rule>
-        <rule name="Inclusivity">Ensure secondary characters (if any) represent this diverse demographic to foster empathy and learning.</rule>
+        <rule name="Korean_YouTube_Audience">Focus on South Korean everyday environments (e.g., tech-modern Seoul offices, cozy Korean apartments with floor seating, specific local cyber-identities like Kakao/Coupang/Toss habits).</rule>
+        <rule name="Teenagers">Use visual metaphors relevant to social media, online gaming (PC bangs), and digital identity. Ensure the vibe is modern but safe.</rule>
+        <rule name="Active_Professionals">Focus on professional KR environments, remote work setups, and high-stakes data protection imagery.</rule>
+        <rule name="Retirees">Prioritize visual clarity, warm KR home environments, and relatable scenarios like online banking or identifying fraudulent messages.</rule>
+        <rule name="Inclusivity">Ensure secondary characters represent a diverse Korean demographic to foster empathy and learning.</rule>
     </audience_protocol>
 
     <protocols>
