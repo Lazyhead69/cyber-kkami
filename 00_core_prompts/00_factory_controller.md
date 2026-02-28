@@ -5,24 +5,24 @@
 
     <orchestration_pipeline>
         <step order="1" name="Script_Production">
-            - Invoke the protocol in `01_script_engine.md`.
-            - Produce a 8,000+ character TTS-ready Korean script.
-            - Generate the `[Internal Director's Cues]` with emotional markers.
+            - Invoke `01_script_engine.md`.
+            - Produce 8,000+ character TTS-ready Korean script.
+            - Ensure **"The Rule of 75"**: Minimum 75 clip markers for a 10-minute video.
         </step>
-        <step order="2" name="Visual_Asset_Generation">
-            - Invoke the protocol in `02_image_engine.md`.
-            - Generate high-quality English image prompts for each significant scene.
-            - Ensure **Absolute Character Consistency** (Velvety fur, grey beanie, red cardigan, round spectacles, starch cheeks, ID badge).
+        <step order="2" name="High_Density_Visuals">
+            - Invoke `02_image_engine.md` using the **"1 cut per 2 sentences"** rule.
+            - Generate unique Image Prompts for every ~10 seconds of narration.
+            - Ensure Absolute Character Consistency (10-feature list).
         </step>
-        <step order="3" name="Video_Motion_Orchestration">
-            - Transform static image prompts into dynamic video prompts (e.g., Luma Dream Machine, Runway Gen-3).
-            - **Motion Rules**: Gentle, cinematic movements. Kkami should have toddler-like curiosities. Focus on "Digital Bloom" and "Techno-Thriller" atmosphere.
-            - **Prompt Suffix**: Add specific motion commands like "Cinematic camera pan, subtle character blinking, volumetric light flickering, high-end 3D animation motion."
+        <step order="3" name="Veo_Ingredient_Orchestration">
+            - **Mode**: 'Ingredient' (1 Image -> 1 Video).
+            - **Instruction**: Transform each static image into a high-density 8-second video prompt.
+            - **Motion Rules**: Focus on one focal point of motion (e.g., blinking, hand movement, digital pulse).
+            - **Prompt Format**: `[CLIP_XX] [IMAGE_PROMPT] + [VEOR_MOTION_INSTRUCTION]`.
         </step>
         <step order="4" name="Thumbnail_Architecture">
-            - Invoke the protocol in `03_thumbnail_engine.md`.
-            - Create a high-CTR thumbnail prompt that captures the most dramatic hook of the episode.
-            - Ensure typography is bold 3D Hangul and character alignment is strict.
+            - Invoke `03_thumbnail_engine.md`.
+            - Create high-CTR hook based on the script's emotional climax.
         </step>
     </orchestration_pipeline>
 

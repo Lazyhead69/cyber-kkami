@@ -58,18 +58,16 @@
 
     <workflow>
         <step order="1" name="InputProcessing">
-            Remove all timestamps (e.g., `00:01:23 --> 00:01:25`). Retain pure text only.
+            Remove all timestamps. Retain pure text only.
         </step>
-        <step order="2" name="ContextAnalysis">
-            Scan the entire script to identify: Era, Location, Atmosphere, and Key Characters.
+        <step order="2" name="High_Density_Analysis">
+            Scan script and divide it into blocks of **exactly 2 sentences**.
         </step>
-        <step order="3" name="SequentialOutput">
-            Number each sentence (1, 2, 3...). For each, provide:
-            A. **Korean Translation**: Accurate and natural text.
-            B. **[English Image Prompt]**: [Style Wrapper] + [Context & Subject] + [Visual Details].
-        </step>
-        <step order="4" name="CombiningLogic">
-            Aim for **1 cut per 2 sentences**. You may combine up to 3 sentences ONLY if contextually inseparable. Never combine 4+ sentences.
+        <step order="3" name="Sequential_Production">
+            For each 2-sentence block, provide:
+            A. **Korean Narration**: The pure text.
+            B. **[CLIP_XX] [English Image Prompt]**: CGI style + Subject + High-density details.
+            C. **[Veo Motion]**: High-precision 8-second motion instructions (Ingredient mode).
         </step>
     </workflow>
 
