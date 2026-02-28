@@ -9,6 +9,7 @@
         - **@thumbnail**: Triggers Step 4 (Thumbnail Architect). Generates the high-CTR thumbnail.
         - **@shorts**: Triggers Step 5 (Shorts Specialist). Extracts viral 9:16 content.
         - **@music**: Triggers Step 6 (Music Maestro). Generates themes and BGM cues.
+        - **@srt**: Triggers Step 7 (Subtitle Engineer). Generates CapCut-ready SRT file.
         - **@full**: Triggers the entire pipeline sequentially.
     </shortcut_commands>
 
@@ -40,7 +41,11 @@
         <step order="6" name="Audio_Music_Design">
             - Invoke `05_music_specialist.md`.
             - Generate the One-Shot Opening and Ending themes.
-            - Map background music cues to the script's emotional segments (Setup, Tension, Climax, Resolution).
+            - Map background music cues to the script's emotional segments.
+        </step>
+        <step order="7" name="Subtitle_Engineering">
+            - Invoke `06_subtitle_specialist.md`.
+            - Convert the 8,000+ char script into a precisely timed SRT file for CapCut.
         </step>
     </orchestration_pipeline>
 
