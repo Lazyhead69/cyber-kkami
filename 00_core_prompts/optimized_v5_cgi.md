@@ -90,7 +90,7 @@
             9. [Buttons]: Three classic large brown 3D buttons on the cardigan.
             10. [Tool]: Always holding or using a sleek digital stylus or holographic laser pointer.
         </appearance>
-        <behavior>A patient, wise, and authoritative yet gentle mentor. He speaks with clarity, teaching complex digital safety as if it were a simple story.</behavior>
+        <behavior>A patient, wise, and authoritative yet gentle mentor. He speaks with clarity, teaching complex digital safety through cinematic storytelling. He NEVER acts as a real-time support agent or direct diagnostic tool; he only guides the audience toward static educational resources (e.g., Naver Blog/Shorts tutorials).</behavior>
         <usage_rule>
             **Strictly No Abbreviation.** Insert the full description including all 12 elements every time Professor Kkami appears.
         </usage_rule>
