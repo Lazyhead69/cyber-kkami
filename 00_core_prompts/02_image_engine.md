@@ -66,7 +66,7 @@
         <step order="3" name="Sequential_Production">
             For each 2-sentence block, provide:
             A. **Korean Narration**: The pure text.
-            B. **[CLIP_XX] [English Image Prompt]**: **MANDATORY STANDALONE MASTER PROMPT**. You MUST re-inject the complete 12-feature Professor Kkami description (Velvety fur #050505, silver spectacles, star cheeks, pink nose, white whiskers, chunky beanie, red cardigan, blue ID badge "가미 선생님", 3 brown buttons, digital stylus). Plus CGI style + Subject + High-density details.
+            B. **[CLIP_XX] [English Image Prompt]**: **MANDATORY STANDALONE MASTER PROMPT**. You MUST re-inject the complete 12-feature Professor Kkami description (Velvety fur #050505, silver spectacles, star cheeks, pink nose, white whiskers, chunky beanie, red cardigan, VIBRANT BLUE ID badge "까미 선생님", 3 dark-brown buttons). Plus CGI style + Subject + High-density details.
             C. **[Veo Motion]**: High-precision 8-second motion instructions (Ingredient mode).
         </step>
     </workflow>
@@ -108,8 +108,8 @@
             5. [Whiskers]: Delicate long white whiskers.
             6. [Beanie]: Professional charcoal-grey (#36454F) chunky-knit beanie.
             7. [Apparel]: A cozy deep-red (#8B0000) academic cardigan worn over a crisp white collared shirt.
-            8. [Expert Badge]: A small blue lanyard around the neck with a glossy 3D digital ID access badge; the badge features a tiny professional portrait of Kkami himself and the Korean text "가미 선생님" (Professor Kkami) in a clean, high-tech digital font.
-            9. [Buttons]: Three classic large brown 3D buttons on the cardigan.
+            8. [Expert Badge]: A SHARP VIBRANT BLUE lanyard around the neck with a GLOSSY, REFLECTIVE 3D digital ID access badge (Rectangular); the badge features a tiny professional portrait of Kkami himself and the KOREAN text "까미 선생님" (Professor Kkami) in a clean, bold high-tech digital font. This badge MUST be visible in every shot featuring his chest.
+            9. [Buttons]: THREE CLASSIC LARGE DARK-BROWN 3D BUTTONS centrally aligned on the cardigan.
             10. [Tool]: Always holding or using a sleek digital stylus or holographic laser pointer.
         </appearance>
         <behavior>A patient, wise, and authoritative yet gentle mentor. He speaks with clarity, teaching complex digital safety through cinematic storytelling. He NEVER acts as a real-time support agent or direct diagnostic tool; he only guides the audience toward static educational resources (e.g., Naver Blog/Shorts tutorials).</behavior>
@@ -124,7 +124,7 @@
         모두 주목! 키보드 잡고, 고! 공간을 가르는 이 짧은 신호음이 여러분의 일상을 지키는 강력한 방화벽의 시작이 되길 바랍니다.
 
         [CLIP_01] [English Image Prompt]
-        2000s cinematic 3D digital animation, Pixar style, high-quality CGI, volumetric lighting, subtle bloom. Macro shot of Professor Kkami (Velvety pitch-black fur #050505, star-pattern cheeks, tiny pink nose, delicate white whiskers, charcoal-grey chunky-knit beanie #36454F). He wears circular silver-rimmed spectacles (#C0C0C0) and a cozy deep-red (#8B0000) academic cardigan with THREE CLASSIC BROWN BUTTONS ALIGNED VERTICALLY OVER A WHITE shirt. Blue lanyard with 3D ID badge "가미 선생님". He stands in a digital library, looking heroically at the camera. --ar 16:9
+        2000s cinematic 3D digital animation, Pixar style, high-quality CGI, volumetric lighting, subtle bloom. Macro shot of Professor Kkami (Velvety pitch-black fur #050505, star-pattern cheeks, tiny pink nose, delicate white whiskers, charcoal-grey chunky-knit beanie #36454F). He wears circular silver-rimmed spectacles (#C0C0C0) and a cozy deep-red (#8B0000) academic cardigan with THREE CLASSIC BROWN BUTTONS ALIGNED VERTICALLY OVER A WHITE shirt. Blue lanyard with 3D ID badge "까미 선생님". He stands in a digital library, looking heroically at the camera. --ar 16:9
 
         [Veo Motion]
         Cinematic slow camera zoom into Kkami's eyes. Subtle ear twitch and wise blinking. --motion 3

@@ -11,7 +11,7 @@
             5. **[Whiskers]**: Delicate long white whiskers.
             6. **[Beanie]**: Professional charcoal-grey (#36454F) chunky-knit beanie.
             7. **[Apparel]**: A cozy deep-red (#8B0000) academic cardigan worn over a crisp white collared shirt.
-            8. **[Expert Badge]**: A small blue lanyard around the neck with a glossy 3D digital ID access badge (featuring Kkami's portrait and "가미 선생님" text).
+            8. **[Expert Badge]**: A small blue lanyard around the neck with a glossy 3D digital ID access badge (featuring Kkami's portrait and "까미 선생님" text).
             9. **[Buttons]**: Three classic large brown 3D buttons **aligned in a perfect vertical line along the center opening of the cardigan**.
             10. **[Tool]**: Always holding or using a sleek digital stylus or holographic laser pointer.
         </profile>
