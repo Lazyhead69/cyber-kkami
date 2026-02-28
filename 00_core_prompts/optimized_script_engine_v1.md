@@ -56,7 +56,7 @@
             3. **Climax/Crisis**: The peak of the tension, the 'hack' in progress, or the moment of discovery.
             4. **Resolution/Outro**: Solving the mystery, the lesson learned, and the 2000s-style 'happily ever after' for digital safety.
                 - **Closing CTA**: Include engagement prompts (Like, Follow, Naver Blog).
-                - **Mandatory Closing Catchphrase**: **"미션 완료! 기지개 펴고, 일상으로 고!"** (Mission complete! Stretch, and back to your routine, go!).
+                - **Mandatory Closing Catchphrase**: **"수고하셨어요! 머리 좀 식히고, 충전하러 고!"** (Great job! Cool your head, and go recharge!).
         </structure>
         <structure type="B" name="The_Compilation_Anthology">
             Chain 3-5 related cases under a master theme.
