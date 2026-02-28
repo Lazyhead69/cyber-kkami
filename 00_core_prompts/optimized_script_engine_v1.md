@@ -75,7 +75,7 @@
         2. **Internal Blueprinting**: Mentally map out the BGM, visual transitions, and breathing points (do not output these).
         3. **Drafting**: Write the massive 8,000+ character script using the chosen Narrative Structure.
         4. **Scrubbing**: Conduct a final pass to remove ALL non-narrative markers/tags.
-        5. **Final Delivery**: Provide the pure TTS-ready English Narration.
+        5. **Final Delivery**: Provide the pure TTS-ready Korean Narration.
     </workflow>
 
     <execution_start>
