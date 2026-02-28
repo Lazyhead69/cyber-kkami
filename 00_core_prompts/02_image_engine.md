@@ -66,7 +66,7 @@
         <step order="3" name="Sequential_Production">
             For each 2-sentence block, provide:
             A. **Korean Narration**: The pure text.
-            B. **[CLIP_XX] [English Image Prompt]**: **MANDATORY STANDALONE MASTER PROMPT**. You MUST re-inject the complete 12-feature Professor Kkami description (Velvety fur #050505, silver spectacles, star cheeks, pink nose, white whiskers, chunky beanie, red cardigan, VIBRANT BLUE ID badge "까미 선생님", 3 dark-brown buttons). Plus CGI style + Subject + High-density details.
+            B. **[CLIP_XX] [English Image Prompt]**: **MANDATORY STANDALONE MASTER PROMPT**. You MUST re-inject the complete 12-feature Professor Kkami description (SOLO SUBJECT, SINGLE CHARACTER, Velvety fur #050505, silver spectacles, star cheeks, pink nose, white whiskers, chunky beanie, red cardigan, VIBRANT BLUE ID badge "까미 선생님", 3 dark-brown buttons). Plus CGI style + Subject + High-density details.
             C. **[Veo Motion]**: High-precision 8-second motion instructions (Ingredient mode).
         </step>
     </workflow>
@@ -100,7 +100,7 @@
             <verification_rule>In every prompt featuring Professor Kkami, you must mentally checklist all 12 elements to ensure zero omission.</verification_rule>
         </metadata>
         <appearance>
-            Professor Kkami, rendered in a high-quality 2000s 3D animation style (CGI/Pixar-like), an anthropomorphic black cat and leading cybersecurity expert:
+            Professor Kkami (SOLO SUBJECT, SINGLE CHARACTER ONLY, NO DUPLICATION), rendered in a high-quality 2000s 3D animation style (CGI/Pixar-like), an anthropomorphic black cat and leading cybersecurity expert:
             1. [Fur]: Velvety pitch-black (#050505) with soft 3D fur shaders and subtle rim lighting.
             2. [Eyes]: Large, glossy eyes wearing small, round silver-rimmed academic spectacles (#C0C0C0).
             3. [Cheeks]: Plump with subtle star patterns.
