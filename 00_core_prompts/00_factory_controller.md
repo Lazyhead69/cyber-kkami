@@ -24,6 +24,11 @@
             - Invoke `03_thumbnail_engine.md`.
             - Create high-CTR hook based on the script's emotional climax.
         </step>
+        <step order="5" name="Short_Form_Extraction">
+            - Invoke `04_shorts_specialist.md`.
+            - Extract a 60-second high-impact "Shorts" script from the long-form content.
+            - Generate specific portrait prompts (`--ar 9:16`) for the highlight moment.
+        </step>
     </orchestration_pipeline>
 
     <consistency_checklist priority="CRITICAL">

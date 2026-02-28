@@ -9,6 +9,7 @@ This repository versions the system prompts and assets for the **Cyber-Kkami** p
   - `01_script_engine.md`: (v3) Narrative architect with Adult Maturity & Technical Anchoring protocols.
   - `02_image_engine.md`: (v7) Visual specialist with "Techno-Thriller" aesthetic and architectural rendering.
   - `03_thumbnail_engine.md`: (v2) YouTube Thumbnail Specialist with strict character consistency and high-CTR codes.
+  - `04_shorts_specialist.md`: Viral moment extractor for 9:16 Short-Form content.
 - **`01_translations/`**: Source scripts and translations in various languages.
   - `korean_original.md`: Original core instructions in Korean.
   - `english_translation.md`: Standard English translation of the core instructions.
