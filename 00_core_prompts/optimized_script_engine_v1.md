@@ -55,6 +55,8 @@
             2. **Development**: Background context and the start of the conflict.
             3. **Climax/Crisis**: The peak of the tension, the 'hack' in progress, or the moment of discovery.
             4. **Resolution/Outro**: Solving the mystery, the lesson learned, and the 2000s-style 'happily ever after' for digital safety.
+                - **Closing CTA**: Include engagement prompts (Like, Follow, Naver Blog).
+                - **Mandatory Closing Catchphrase**: **"미션 완료! 기지개 펴고, 일상으로 고!"** (Mission complete! Stretch, and back to your routine, go!).
         </structure>
         <structure type="B" name="The_Compilation_Anthology">
             Chain 3-5 related cases under a master theme.

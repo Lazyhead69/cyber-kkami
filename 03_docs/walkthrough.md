@@ -45,5 +45,6 @@ Translate the existing Korean prompt engineering guidelines (`exemple.md`) into 
 - **Objective**: Ensure Professor Kkami has a consistent and professional opening.
 - **Implementation**:
     - Mandatory Catchphrase: **"모두 주목! 키보드 잡고, 고!"** (Everyone attention! Grab your keyboard, go!).
+    - Mandatory Closing catchphrase: **"미션 완료! 기지개 펴고, 일상으로 고!"** (Mission complete! Stretch, and back to your routine, go!).
     - Added a mandatory 2-3 second digital jingle placeholder after the catchphrase.
     - **Physical Description Ban**: Prohibited the character from describing his own outfit/appearance in the narration, as the TTS represents his own voice and he is visually present.
