@@ -54,3 +54,16 @@ Translate the existing Korean prompt engineering guidelines (`exemple.md`) into 
 - **Implementation**:
     - **No Digits Rule**: Prohibited the use of Arabic numerals (0-9). All numbers, dates, and years must be written out entirely in **Korean characters (Hangul)**.
     - This ensures the TTS engine reads numbers correctly according to the context (e.g., years vs. cardinal numbers).
+
+## 10. Persona & Workflow Optimization (v2/v6)
+- **Objective**: Propel the edutainment quality to blockbuster standards.
+- **Implementation**:
+    - **Script Engine (v2)**: 
+        - **Dramatic Pacing**: 2,000-char segments with evolving emotional arcs (Curiosity -> Tension -> Climax -> Security).
+        - **Visual Metaphor Glossary**: Standardized terminology (e.g., Firewall = Holographic Dome).
+        - **Internal Director's Cues**: Silent metadata for scene intensity mapping.
+    - **Visual Specialist (v6)**:
+        - **Dynamic Framing**: 40/40/20 ratio for context, character, and overlays.
+        - **Cinematic Angles**: High-status low-angles for Kkami; dutch/shaky cam for threats.
+        - **Eye-Line Sync**: Professor Kkami now looks precisely at the digital elements being discussed.
+- **Result**: Perfect synergy between narrative and visual generation.
