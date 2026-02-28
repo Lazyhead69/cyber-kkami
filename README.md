@@ -4,9 +4,9 @@ This repository versions the system prompts and assets for the **Cyber-Kkami** p
 
 ## 📂 Project Structure
 
-- **`00_core_prompts/`**: Main system instructions and guidelines for AI specialists.
-  - `optimized_v5_cgi.md`: (v6) Visual specialist for 2000s animation style prompts.
-  - `optimized_script_engine_v1.md`: (v2) Narrative architect for deep edutainment scripts.
+- **`00_core_prompts/`**:
+  - `optimized_script_engine_v1.md`: (v3) Narrative architect with Adult Maturity & Technical Anchoring protocols.
+  - `optimized_v5_cgi.md`: (v7) Visual specialist with "Techno-Thriller" aesthetic and architectural rendering.
 - **`01_translations/`**: Source scripts and translations in various languages.
   - `korean_original.md`: Original core instructions in Korean.
   - `english_translation.md`: Standard English translation of the core instructions.

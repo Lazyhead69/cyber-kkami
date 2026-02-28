@@ -67,3 +67,16 @@ Translate the existing Korean prompt engineering guidelines (`exemple.md`) into 
         - **Cinematic Angles**: High-status low-angles for Kkami; dutch/shaky cam for threats.
         - **Eye-Line Sync**: Professor Kkami now looks precisely at the digital elements being discussed.
 - **Result**: Perfect synergy between narrative and visual generation.
+
+## 11. Adult Audience Maturity Protocol (v3/v7)
+- **Objective**: Maintain credibility and professionalism for adult, senior, and expert audiences.
+- **Implementation**:
+    - **Script Engine (v3)**: 
+        - **Technical Anchoring**: Every visual metaphor must be linked to a real technical term (e.g., "The Firewall - this holographic dome").
+        - **Tone Check**: Prohibited "fairy-tale" or childish language; replaced with high-stakes "Techno-Thriller" vocabulary.
+    - **Visual Specialist (v7)**:
+        - **Techno-Thriller Aesthetic**: Shifted from "magic/fantasy" to "architectural/digital" rendering.
+        - **Refined Metaphors**: 
+            - *Cloud* = Luminous Prism Data Center.
+            - *Malware* = Systemic Parasite / Glitch-Sonde (sharp geometry, not cute).
+- **Result**: A content generation engine that is both visually spectacular and intellectually serious.
