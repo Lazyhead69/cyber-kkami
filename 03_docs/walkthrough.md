@@ -32,3 +32,11 @@ Translate the existing Korean prompt engineering guidelines (`exemple.md`) into 
     - Updated `DETECTED_STYLE` in `optimized_example.md` to specify 3D volume, squashing/stretching animation principles, and cinematic '2000s bloom' lighting.
     - Enhanced the `PROTAGONIST` profile to ensure Kkami is rendered with 3D fur shaders and glossy 3D eyes.
 - **Verification**: The system instructions now explicitly guide the model to generate prompts with a consistent "Early-Digital Blockbuster" cinematic vibe.
+
+## 7. Script Engine Optimization (v1)
+- **Objective**: Translate and optimize the `kr_script_maker` prompt for creating deep narratives.
+- **Implementation**:
+    - Created `optimized_script_engine_v1.md` in English.
+    - Integrated a **"Narrative Architect"** persona focused on Professor Kkami's YouTube channel.
+    - Strictly enforced the **8,000+ character length** and **Pure TTS Output** (no tags) protocols.
+    - Maintained consistency with the 2000s Animation style guide.
