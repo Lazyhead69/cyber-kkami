@@ -81,11 +81,11 @@ Translate the existing Korean prompt engineering guidelines (`exemple.md`) into 
             - *Malware* = Systemic Parasite / Glitch-Sonde (sharp geometry, not cute).
 - **Result**: A content generation engine that is both visually spectacular and intellectually serious.
 
-## 12. YouTube Thumbnail Specialist (v1)
-- **Objective**: Maximize Click-Through Rate (CTR) using blockbuster visual engineering.
+## 12. YouTube Thumbnail Specialist (v2)
+- **Objective**: Maximize Click-Through Rate (CTR) using blockbuster visual engineering and strict character consistency.
 - **Implementation**:
-    - **High-CTR Hierarchy**: Center Professor Kkami with exaggerated 3D emotions.
-    - **Mobile-Ready Typography**: Large, bold 3D Korean text (Hangul) occupying 20-30% of the space.
-    - **Visual Pop**: High-contrast lighting and enhanced "early-2000s CGI bloom" to stand out in the feed.
-    - **Maturity Sync**: Uses the same "Techno-Thriller" visual metaphors as the Visual Specialist.
-- **Result**: A specialized tool to create iconic, clickable miniatures for each episode.
+    - **Character Consistency (PRO)**: Uses the official felt-material specs (egg-shaped black felt cat, wooden buttons, chunky knit teal beanie).
+    - **High-CTR Hierarchy**: Rule of Thirds placement for Professor Kkami with exaggerated 3D emotions.
+    - **Mobile-Ready Typography**: Large, bold 3D Korean text (Hangul) with high-contrast outer glows.
+    - **Cinematic Codes**: 60mm macro lens, f/1.8 shallow depth of field, and rim lighting for "handmade" tactile feel.
+- **Result**: Iconographic, high-CTR thumbnails that stay 100% true to the character's physical model.
