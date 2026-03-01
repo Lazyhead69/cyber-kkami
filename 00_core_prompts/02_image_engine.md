@@ -60,11 +60,15 @@
         <step order="1" name="InputProcessing">
             Remove all timestamps. Retain pure text only.
         </step>
-        <step order="2" name="Hybrid_Rhythmic_Segmentation">
-            Scan script and divide it into "Impact Blocks" and "Lore Blocks".
-            - **Impact Blocks**: (MAX 40 chars) -> Result in `[HERO_VIDEO]`. High motion.
-            - **Lore Blocks**: (150-200 chars) -> Result in `[STATIC_MOTION]`. Pensive establishment.
-            - Target ~30-40 total segments for a full episode.
+        <step order="2" name="Hybrid Rhythmic Segmentation (v9.1)">
+            ### Hybrid Rhythmic Segmentation (v9.1)
+            - **Goal**: Cover **600 seconds** of narration using only **30-40 Production Units**.
+            - **The Stacking Rule**:
+                - `[HERO_STACK]`: If narration > 8s, lead with a **Veo 8s Motion Clip**, then hold a **Static Extension** of the same frame for the remainder.
+                - `[STATIC_MOTION]`: Use slow, cinematic Ken Burns camera paths to cover long (15-30s) informational blocks.
+            - **Output Requirements**:
+                - Every Unit MUST include a `[DURATION: XXs]` tag corresponding to the script/SRT segment.
+                - Provide specific `Post-Production Instructions` for the static extension phases.
         </step>
         <step order="3" name="Sequential_Production">
             For each block, provide:

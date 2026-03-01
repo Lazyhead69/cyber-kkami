@@ -30,6 +30,14 @@
                 - `[HERO_VIDEO]`: High-impact character action (5-8s).
                 - `[STATIC_MOTION]`: Core narration with Ken Burns pan/zoom (15-25s).
                 - `[LOOPER]`: Reusable background ambiance (8s loop).
+            ### 3. Hybrid Rhythmic Protocol (v9.1) - Temporal Coverage
+            - **The Rule of 600s**: Total visual duration MUST equal the TTS duration (approx. 10 mins).
+            - **Hybrid Segmentation**: Target 30-40 "Production Units".
+            - **Stacking Logic**:
+                - `[HERO_STACK]`: 8s Veo (Action) + Static Extension (Remaining duration) in same framing.
+                - `[STATIC_MOTION]`: 100% Static with Ken Burns (15-30s blocks).
+                - `[LOOPER_PAD]`: Background loops for long secondary narration.
+            - **Verification**: Each unit in the storyboard MUST list an estimated `[DURATION]`.
             - **Instruction**: Transform static images into these specific formats.
             - **Prompt Format**: `[TAG] [CLIP_XX] [IMAGE_PROMPT] + [MOTION_INSTRUCTION]`.
         </step>
