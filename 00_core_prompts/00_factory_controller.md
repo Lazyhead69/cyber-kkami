@@ -25,21 +25,16 @@
             - Ensure Absolute Character Consistency (10-feature list).
         </step>
         <step order="3" name="Veo_Ingredient_Orchestration">
-            - **Mode**: 'Hybrid' (Video + Static + Loop).
-            - **Tags**: 
-                - `[HERO_VIDEO]`: High-impact character action (5-8s).
-                - `[STATIC_MOTION]`: Core narration with Ken Burns pan/zoom (15-25s).
-                - `[LOOPER]`: Reusable background ambiance (8s loop).
-            ### 3. Hybrid Rhythmic Protocol (v9.1) - Temporal Coverage
+            - **Mode**: 'Standard 8s' (Pure Video or Pure Static).
+            - **Standard Duration**: Exactly 8 seconds per unit.
+            ### 3. Standard 8s Protocol (v10) - Uniform Coverage
             - **The Rule of 600s**: Total visual duration MUST equal the TTS duration (approx. 10 mins).
-            - **Hybrid Segmentation**: Target 30-40 "Production Units".
-            - **Stacking Logic**:
-                - `[HERO_STACK]`: 8s Veo (Action) + Static Extension (Remaining duration) in same framing.
-                - `[STATIC_MOTION]`: 100% Static with Ken Burns (15-30s blocks).
-                - `[LOOPER_PAD]`: Background loops for long secondary narration.
-            - **Verification**: Each unit in the storyboard MUST list an estimated `[DURATION]`.
-            - **Instruction**: Transform static images into these specific formats.
-            - **Prompt Format**: `[TAG] [CLIP_XX] [IMAGE_PROMPT] + [MOTION_INSTRUCTION]`.
+            - **Segmentation**: Target ~75 "Production Units" (600s / 8s).
+            - **Output Format**:
+                [TTS] text from script
+                [ENGLISH PROMPT] detailed cinematic description
+            - **Constraint**: NO aspect ratio tags (e.g., --ar 16:9) in prompts.
+            - **Verification**: Each unit in the storyboard MUST be exactly 8 seconds.
         </step>
         <step order="4" name="Thumbnail_Architecture">
             - Invoke `03_thumbnail_engine.md`.

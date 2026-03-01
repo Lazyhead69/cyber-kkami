@@ -60,24 +60,21 @@
         <step order="1" name="InputProcessing">
             Remove all timestamps. Retain pure text only.
         </step>
-        <step order="2" name="Hybrid Rhythmic Segmentation (v9.1)">
-            ### Hybrid Rhythmic Segmentation (v9.1)
-            - **Goal**: Cover **600 seconds** of narration using only **30-40 Production Units**.
-            - **The Stacking Rule**:
-                - `[HERO_STACK]`: If narration > 8s, lead with a **Veo 8s Motion Clip**, then hold a **Static Extension** of the same frame for the remainder.
-                - `[STATIC_MOTION]`: Use slow, cinematic Ken Burns camera paths to cover long (15-30s) informational blocks.
+        <step order="2" name="Pure_8s_Segmentation (v10)">
+            ### Pure 8s Segmentation (v10)
+            - **Goal**: Cover **600 seconds** of narration using exact **8-second blocks**.
+            - **The 8s Rule**: Every Production Unit corresponds to exactly 8 seconds of narration (approx. 35-40 Korean characters).
             - **Output Requirements**:
-                - Every Unit MUST include a `[DURATION: XXs]` tag corresponding to the script/SRT segment.
-                - Provide specific `Post-Production Instructions` for the static extension phases.
+                - Format:
+                  [TTS] Korean narration (strictly 8s duration)
+                  [ENGLISH PROMPT] Standalone master prompt
+                - **Constraint**: NO aspect ratio tags (e.g., --ar 16:9).
         </step>
         <step order="3" name="Sequential_Production">
             For each block, provide:
-            A. **Production Tag**: `[HERO_VIDEO]`, `[STATIC_MOTION]`, or `[LOOPER]`.
-            B. **Korean Narration**: The text to be synced.
-            C. **[English Image Prompt]**: **MANDATORY STANDALONE MASTER PROMPT**. RE-INJECT full description block.
-            D. **[Motion/Post Instruction]**: 
-               - If `[HERO_VIDEO]`: High-precision 8s Veo motion.
-               - If `[STATIC_MOTION]`: Camera pan/zoom/tilt instructions for CapCut.
+            A. **[TTS]**: The strictly segmented 8s Korean text.
+            B. **[ENGLISH PROMPT]**: **MANDATORY STANDALONE MASTER PROMPT**. RE-INJECT full description block (No aspect ratio).
+        </step>
         </step>
     </workflow>
 
@@ -97,8 +94,11 @@
             <trait name="Eye-Line_Sync">Ensure Kkami is physically looking at the digital elements he is explaining with professional intensity.</trait>
         </visual_traits>
         <lighting_color>
-            <palette>Vibrant Cinematic Palette: Deep sapphire blues, glowing cyan accents, warm amber highlights, and rich charcoal tones to evoke adventure and safety.</palette>
-            <lighting>Cinematic Three-Point Lighting; warm rim lights and soft key lights creating a 3D depth; subtle use of '90s/2000s bloom' and soft glow on holographic elements.</lighting>
+            - **Style**: Early-2000s Cinematic 3D Animation (e.g., Pixar/Dreamworks era).
+        - **Emotion**: Vibrant, clear, and reassuring. Avoid macabre imagery, skeletal elements, or deep shadows that trigger fear.
+        - **Atmosphere**: Nostalgic 'CGI bloom' lighting, volumetric rays, high-budget digital finish. 
+        - **Direction**: Treat the digital world as a clean, architectural marvel. Threats are represented as colorful "Glitch-Sondes" (geometric anomalies), NOT horror creatures.
+        - **Color Palette**: Deep sapphire blues vs warm amber/gold glows. High-end rim lighting.
             <depth>Layered 3D depth; clear foreground focus with soft, painterly 3D backgrounds that feel expansive and high-budget.</depth>
         </lighting_color>
         <educational_vibe>Nostalgic & High-Quality; the vibe of a beloved 2000s animated feature film where complex cybersecurity concepts feel like a magical, accessible adventure.</educational_vibe>
@@ -127,29 +127,16 @@
             **Cinematic Manifestation Protocol**: To ensure visual consistency, DO NOT use pockets or complex physical pouches. Digital tools (Smartphones, Stylus, IDs) MANIFEST as **floating 3D holograms** or are held simply in his paws. This avoids complex paw-to-clothing interactions which cause AI "hallucinations".
         </behavior>
         <usage_rule>
-            **NAMELESS DESCRIPTIVE BLOCKS (CRITICAL)**:
-            - Do NOT use "Professor Kkami" or the name "Kkami" in any output field (Image Prompt or Motion).
-            - Always refer to the character as "the character", "the subject", "the anthropomorphic black cat", or use the physical description block directly.
-            - This ensures the AI model focuses on the visual features provided rather than attempting to retrieve a (likely non-existent) concept of the character by name.
-        </usage_rule>
-    </character_profile>
+        **NAMELESS DESCRIPTIVE BLOCKS (MANDATORY)**:
+        - Do NOT use "Professor Kkami", "the character", or "the subject" as shorthand.
+        - **MANDATORY**: You MUST include the full 12-feature description (Fur #050505, Beanie #36454F, Cardigan #8B0000, 3 Dark-Brown Buttons, Silver Spectacles, etc.) in **EVERY SINGLE PROMPT**.
+        - This prevents "Character Description Decay" and ensures the AI model has 100% context for every generation task.
+    </usage_rule>
+</character_profile>
 
-    <output_example>
-        1.
-        [Korean Narration]
-        모두 주목! 키보드 잡고, 고! 공간을 가르는 이 짧은 신호음이 여러분의 일상을 지키는 강력한 방화벽의 시작이 되길 바랍니다.
-
-        [CLIP_01] [English Image Prompt]
-        ```text
-        2000s cinematic 3D digital animation, Pixar style, high-quality CGI, volumetric lighting, subtle bloom. Macro shot: SOLO SUBJECT, SINGLE CHARACTER, anthropomorphic black cat, VELVETY PITCH-BLACK FUR #050505, star-pattern cheeks, tiny pink nose, delicate white whiskers, CHUNKY-KNIT BEANIE #36454F. Wearing circular silver-rimmed spectacles (#C0C0C0) and a COZY DEEP-RED (#8B0000) ACADEMIC CARDIGAN with 3 dark-brown buttons. Simple blue lanyard. Standing in a digital library. --ar 16:9
-        ```
-
-        [Veo Motion]
-        ```text
-        Cinematic slow camera zoom into the character's eyes. Subtle ear twitch and wise blinking. --motion 3
-        ```
-        
-        2.
-        ...
-    </output_example>
+<output_example>
+    ### [UNIT_01] (0-8s)
+    [TTS] 모두 주목! 키보드 잡고, 고! (경쾌한 디지털 징글 사운드와 함께 시작합니다.)
+    [ENGLISH PROMPT] 2000s cinematic 3D digital animation, Pixar style, high-quality CGI. HEROIC shot: SOLO SUBJECT, SINGLE CHARACTER ONLY, anthropomorphic black cat, VELVETY PITCH-BLACK FUR #050505, CHUNKY-KNIT BEANIE #36454F, DEEP-RED ACADEMIC CARDIGAN with 3 dark-brown buttons centrally aligned, Circular silver spectacles (#C0C0C0), star-pattern cheeks, tiny pink nose, delicate white whiskers. Simple blue lanyard. Standing on a glowing digital stage, adjusting glasses heroically. Background: A flurry of blue digital particles. **CAMERA: Slow heroic zoom-in to face. --motion 4**
+</output_example>
 </system_instructions>
