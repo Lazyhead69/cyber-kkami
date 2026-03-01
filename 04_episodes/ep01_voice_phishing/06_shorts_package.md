@@ -16,24 +16,24 @@
 둘, 확인은 반드시 다른 전화기로 직접 하십시오.
 셋, 가족과 대화의 네트워크를 만드십시오.
 
-여러분의 안전, 교수 까미가 끝까지 지키겠습니다! 지금 바로 풀버전 영상과 네이버 블로그에서 더 자세한 방패를 확인하세요!"
+여러분의 안전, 제가 끝까지 지키겠습니다! 지금 바로 풀버전 영상과 네이버 블로그에서 더 자세한 방패를 확인하세요!"
 
 ---
 
 ### 🎬 Storyboard Visuel (V6 Ingredient)
 
 **[SHORT_CLIP_01] Hook Intense**
-- **Image**: `Professor Kkami macro face close-up, expression of extreme shock. High-stakes digital lighting. --ar 9:16`
-- **Motion**: `Fast snap zoom into Kkami's eyes, pupils dilating. --motion 8`
+- **Image**: `HEROIC CLOSE-UP: SOLO SUBJECT, SINGLE CHARACTER ONLY, anthropomorphic black cat, VELVETY PITCH-BLACK FUR #050505, CHUNKY-KNIT BEANIE #36454F, DEEP-RED ACADEMIC CARDIGAN, silver spectacles, star-pattern cheeks, white whiskers. Expression of extreme shock. High-stakes digital lighting. --ar 9:16`
+- **Motion**: `Fast snap zoom into the character's eyes, pupils dilating. --motion 8`
 
 **[SHORT_CLIP_02] Le Mensonge**
-- **Image**: `Professor Kkami surrounded by floating 3D red digital masks. Shadows everywhere. --ar 9:16`
-- **Motion**: `The masks rotate quickly around his head. --motion 4`
+- **Image**: `SOLO SUBJECT, SINGLE CHARACTER, anthropomorphic black cat, VELVETY PITCH-BLACK FUR #050505, CHUNKY-KNIT BEANIE #36454F, DEEP-RED ACADEMIC CARDIGAN, silver spectacles. Simple blue lanyard. Surrounded by floating 3D red digital masks. --ar 9:16`
+- **Motion**: `The masks rotate quickly around the character's head. --motion 4`
 
 **[SHORT_CLIP_03] Le Bouclier**
-- **Image**: `Kkami raises a massive golden 3D shield with the text "골든 실드". Golden bloom. --ar 9:16`
+- **Image**: `SOLO SUBJECT, SINGLE CHARACTER, anthropomorphic black cat, VELVETY PITCH-BLACK FUR #050505, CHUNKY-KNIT BEANIE #36454F, DEEP-RED CARDIGAN, silver spectacles, simple blue lanyard. Raising a massive golden 3D shield with the text "골든 실드". Golden bloom. --ar 9:16`
 - **Motion**: `The shield pulses with light, repelling red sparks. --motion 3`
 
 **[SHORT_CLIP_04] L'Appel à l'Action**
-- **Image**: `Kkami pointing toward the "Watch Full Video" link. Library setting. --ar 9:16`
+- **Image**: `SOLO SUBJECT, SINGLE CHARACTER, anthropomorphic black cat, VELVETY PITCH-BLACK FUR #050505, CHUNKY-KNIT BEANIE #36454F, DEEP-RED CARDIGAN, silver spectacles. Simple blue lanyard. Pointing toward the "Watch Full Video" link. Library setting. --ar 9:16`
 - **Motion**: `Gentle nod and blink. --motion 2`
