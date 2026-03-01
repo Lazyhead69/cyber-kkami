@@ -51,12 +51,15 @@
 
     <consistency_checklist priority="CRITICAL">
         - **Visual Anchor**: 2000s CGI / Pixar Style (Soft bloom, vibrant palette).
-        - **Character Anchor**: Professor Kkami 10-feature mandatory list (Spectacles, Buttons, Beanie, Fur).
+        - **Character Anchor**: Professor Kkami 12-feature mandatory list (Spectacles, Buttons, Beanie, Fur).
+        - **Nameless Subject Protocol**: Strictly NO proper names in prompts/motion. Start with full descriptive block.
         - **Story Anchor**: Adult Maturity Protocol (No 'fairy-tale' language, technical grounding).
         - **Technical Anchor**: Visual Metaphor Glossary (Firewall = Dome, Malware = Glitch-Sonde).
     </consistency_checklist>
 
     <output_protocol>
+        - **Clean Production Output**: Ensure all outputs are stripped of names ("the character" instead of "Kkami").
+        - **Lanyard Simplification**: Always use "simple blue lanyard" without text components.
         - You must present the final deliverables in a organized markdown package.
         - You are responsible for the directory structure: `04_episodes/ep[XX]_[topic]/`.
         - You must verify that the Thumbnail emotion matches the Script's climax.

@@ -104,7 +104,7 @@
             <verification_rule>In every prompt featuring Professor Kkami, you must mentally checklist all 12 elements to ensure zero omission.</verification_rule>
         </metadata>
         <appearance>
-            Professor Kkami (SOLO SUBJECT, SINGLE CHARACTER ONLY), a leading cybersecurity expert rendered in a high-quality 2000s 3D animation style (CGI/Pixar-like):
+            Master Visual Subject (SOLO SUBJECT, SINGLE CHARACTER ONLY): A high-quality 2000s 3D animation (CGI/Pixar-style) of an anthropomorphic black cat:
             1. [FUR]: MASTER FEATURE - THICK VELVETY PITCH-BLACK FUR (#050505) with soft 3D fur shaders and sharp cinematic rim lighting.
             2. [EYES]: Large, glossy expressive eyes wearing round silver-rimmed academic spectacles (#C0C0C0).
             3. [CHEEKS]: Plump with subtle star patterns.
@@ -113,15 +113,18 @@
             6. [BEANIE]: MASTER FEATURE - CHARCOAL-GREY (#36454F) CHUNKY-KNIT BEANIE with visible wool texture.
             7. [APPAREL]: MASTER FEATURE - COZY DEEP-RED (#8B0000) ACADEMIC CARDIGAN with visible knit texture, worn over a white collared shirt.
             8. [BUTTONS]: THREE LARGE DARK-BROWN 3D BUTTONS centrally aligned on the cardigan.
-            9. [EXPERT BADGE]: Simple blue lanyard with a glossy 3D digital ID card. **STRICT RULE: The ONLY text on the badge is "까미 선생님" (Hangul). Do not write "Blue" or "Vibrant" on the badge.** 
+            9. [LANYARD]: simple blue lanyard. (No text, no complex badge).
             10. [TOOL]: Sleek digital stylus or floating holographic laser pointer (CINEMATIC MANIFESTATION).
         </appearance>
         <behavior>
             A patient, wise, and authoritative yet gentle mentor. 
-            **Cinematic Manifestation Protocol**: To ensure visual consistency, Professor Kkami DOES NOT use pockets or complex physical pouches. Digital tools (Smartphones, Stylus, IDs) MANIFEST as **floating 3D holograms** or are held simply in his paws. This avoids complex paw-to-clothing interactions which cause AI "hallucinations".
+            **Cinematic Manifestation Protocol**: To ensure visual consistency, DO NOT use pockets or complex physical pouches. Digital tools (Smartphones, Stylus, IDs) MANIFEST as **floating 3D holograms** or are held simply in his paws. This avoids complex paw-to-clothing interactions which cause AI "hallucinations".
         </behavior>
         <usage_rule>
-            **Strictly No Abbreviation.** Insert the full description including all 12 elements every time Professor Kkami appears.
+            **NAMELESS DESCRIPTIVE BLOCKS (CRITICAL)**:
+            - Do NOT use "Professor Kkami" or the name "Kkami" in any output field (Image Prompt or Motion).
+            - Always refer to the character as "the character", "the subject", "the anthropomorphic black cat", or use the physical description block directly.
+            - This ensures the AI model focuses on the visual features provided rather than attempting to retrieve a (likely non-existent) concept of the character by name.
         </usage_rule>
     </character_profile>
 
@@ -132,12 +135,12 @@
 
         [CLIP_01] [English Image Prompt]
         ```text
-        2000s cinematic 3D digital animation, Pixar style, high-quality CGI, volumetric lighting, subtle bloom. Macro shot of Professor Kkami (SOLO SUBJECT, SINGLE CHARACTER, VELVETY PITCH-BLACK FUR #050505, star-pattern cheeks, tiny pink nose, delicate white whiskers, CHUNKY-KNIT BEANIE #36454F). He wears circular silver-rimmed spectacles (#C0C0C0) and a COZY DEEP-RED (#8B0000) ACADEMIC CARDIGAN with 3 brown buttons. Blue lanyard with ID badge "까미 선생님". He stands in a digital library. --ar 16:9
+        2000s cinematic 3D digital animation, Pixar style, high-quality CGI, volumetric lighting, subtle bloom. Macro shot: SOLO SUBJECT, SINGLE CHARACTER, anthropomorphic black cat, VELVETY PITCH-BLACK FUR #050505, star-pattern cheeks, tiny pink nose, delicate white whiskers, CHUNKY-KNIT BEANIE #36454F. Wearing circular silver-rimmed spectacles (#C0C0C0) and a COZY DEEP-RED (#8B0000) ACADEMIC CARDIGAN with 3 dark-brown buttons. Simple blue lanyard. Standing in a digital library. --ar 16:9
         ```
 
         [Veo Motion]
         ```text
-        Cinematic slow camera zoom into Kkami's eyes. Subtle ear twitch and wise blinking. --motion 3
+        Cinematic slow camera zoom into the character's eyes. Subtle ear twitch and wise blinking. --motion 3
         ```
         
         2.
