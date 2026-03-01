@@ -17,7 +17,7 @@
         <step order="1" name="Script_Production">
             - Invoke `01_script_engine.md`.
             - Produce 8,000+ character TTS-ready Korean script.
-            - Ensure **"The Rule of 75"**: Minimum 75 clip markers for a 10-minute video.
+            - **Hybrid Rhythmic Protocol**: Target 30-40 total visual transition points (Animation Units) per 10-minute episode.
         </step>
         <step order="2" name="High_Density_Visuals">
             - Invoke `02_image_engine.md` using the **"1 cut per 2 sentences"** rule.
@@ -25,10 +25,13 @@
             - Ensure Absolute Character Consistency (10-feature list).
         </step>
         <step order="3" name="Veo_Ingredient_Orchestration">
-            - **Mode**: 'Ingredient' (1 Image -> 1 Video).
-            - **Instruction**: Transform each static image into a high-density 8-second video prompt.
-            - **Motion Rules**: Focus on one focal point of motion (e.g., blinking, hand movement, digital pulse).
-            - **Prompt Format**: `[CLIP_XX] [IMAGE_PROMPT] + [VEOR_MOTION_INSTRUCTION]`.
+            - **Mode**: 'Hybrid' (Video + Static + Loop).
+            - **Tags**: 
+                - `[HERO_VIDEO]`: High-impact character action (5-8s).
+                - `[STATIC_MOTION]`: Core narration with Ken Burns pan/zoom (15-25s).
+                - `[LOOPER]`: Reusable background ambiance (8s loop).
+            - **Instruction**: Transform static images into these specific formats.
+            - **Prompt Format**: `[TAG] [CLIP_XX] [IMAGE_PROMPT] + [MOTION_INSTRUCTION]`.
         </step>
         <step order="4" name="Thumbnail_Architecture">
             - Invoke `03_thumbnail_engine.md`.

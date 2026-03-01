@@ -60,18 +60,20 @@
         <step order="1" name="InputProcessing">
             Remove all timestamps. Retain pure text only.
         </step>
-        <step order="2" name="High_Density_8s_Sync">
-            Scan script and divide it into blocks of **MAX 35-40 Korean characters**. 
-            - Each [CLIP] must result in a narration under 8 seconds. 
-            - If a sentence is very long, split it into two visual segments.
+        <step order="2" name="Hybrid_Rhythmic_Segmentation">
+            Scan script and divide it into "Impact Blocks" and "Lore Blocks".
+            - **Impact Blocks**: (MAX 40 chars) -> Result in `[HERO_VIDEO]`. High motion.
+            - **Lore Blocks**: (150-200 chars) -> Result in `[STATIC_MOTION]`. Pensive establishment.
+            - Target ~30-40 total segments for a full episode.
         </step>
         <step order="3" name="Sequential_Production">
             For each block, provide:
-            A. **Korean Narration**: The pure text.
-            B. **[CLIP_XX] [English Image Prompt]**: **MANDATORY STANDALONE MASTER PROMPT**. RE-INJECT full description (SOLO SUBJECT, SINGLE CHARACTER, VELVETY PITCH-BLACK FUR #050505, CHUNKY-KNIT BEANIE, DEEP-RED CARDIGAN, silver spectacles, star cheeks, pink nose, white whiskers, blue ID badge "까미 선생님", 3 dark-brown buttons). 
-               **FORMAT**: Wrap the prompt in a Markdown code block for easy 1-click copying.
-            C. **[Veo Motion]**: High-precision 8-second motion instructions.
-               **FORMAT**: Wrap the instructions in a Markdown code block.
+            A. **Production Tag**: `[HERO_VIDEO]`, `[STATIC_MOTION]`, or `[LOOPER]`.
+            B. **Korean Narration**: The text to be synced.
+            C. **[English Image Prompt]**: **MANDATORY STANDALONE MASTER PROMPT**. RE-INJECT full description block.
+            D. **[Motion/Post Instruction]**: 
+               - If `[HERO_VIDEO]`: High-precision 8s Veo motion.
+               - If `[STATIC_MOTION]`: Camera pan/zoom/tilt instructions for CapCut.
         </step>
     </workflow>
 
