@@ -60,14 +60,18 @@
         <step order="1" name="InputProcessing">
             Remove all timestamps. Retain pure text only.
         </step>
-        <step order="2" name="High_Density_Analysis">
-            Scan script and divide it into blocks of **exactly 2 sentences**.
+        <step order="2" name="High_Density_8s_Sync">
+            Scan script and divide it into blocks of **MAX 35-40 Korean characters**. 
+            - Each [CLIP] must result in a narration under 8 seconds. 
+            - If a sentence is very long, split it into two visual segments.
         </step>
         <step order="3" name="Sequential_Production">
-            For each 2-sentence block, provide:
+            For each block, provide:
             A. **Korean Narration**: The pure text.
-            B. **[CLIP_XX] [English Image Prompt]**: **MANDATORY STANDALONE MASTER PROMPT**. You MUST re-inject the complete 12-feature Professor Kkami description (SOLO SUBJECT, SINGLE CHARACTER, Velvety fur #050505, silver spectacles, star cheeks, pink nose, white whiskers, chunky beanie, red cardigan, VIBRANT BLUE ID badge "까미 선생님", 3 dark-brown buttons). Plus CGI style + Subject + High-density details.
-            C. **[Veo Motion]**: High-precision 8-second motion instructions (Ingredient mode).
+            B. **[CLIP_XX] [English Image Prompt]**: **MANDATORY STANDALONE MASTER PROMPT**. RE-INJECT full description (SOLO SUBJECT, SINGLE CHARACTER, VELVETY PITCH-BLACK FUR #050505, CHUNKY-KNIT BEANIE, DEEP-RED CARDIGAN, silver spectacles, star cheeks, pink nose, white whiskers, blue ID badge "까미 선생님", 3 dark-brown buttons). 
+               **FORMAT**: Wrap the prompt in a Markdown code block for easy 1-click copying.
+            C. **[Veo Motion]**: High-precision 8-second motion instructions.
+               **FORMAT**: Wrap the instructions in a Markdown code block.
         </step>
     </workflow>
 
@@ -100,19 +104,22 @@
             <verification_rule>In every prompt featuring Professor Kkami, you must mentally checklist all 12 elements to ensure zero omission.</verification_rule>
         </metadata>
         <appearance>
-            Professor Kkami (SOLO SUBJECT, SINGLE CHARACTER ONLY, NO DUPLICATION), rendered in a high-quality 2000s 3D animation style (CGI/Pixar-like), an anthropomorphic black cat and leading cybersecurity expert:
-            1. [Fur]: Velvety pitch-black (#050505) with soft 3D fur shaders and subtle rim lighting.
-            2. [Eyes]: Large, glossy eyes wearing small, round silver-rimmed academic spectacles (#C0C0C0).
-            3. [Cheeks]: Plump with subtle star patterns.
-            4. [Nose]: Tiny pink (#FFC0CB) nose.
-            5. [Whiskers]: Delicate long white whiskers.
-            6. [Beanie]: Professional charcoal-grey (#36454F) chunky-knit beanie.
-            7. [Apparel]: A cozy deep-red (#8B0000) academic cardigan worn over a crisp white collared shirt.
-            8. [Expert Badge]: A SHARP VIBRANT BLUE lanyard around the neck with a GLOSSY, REFLECTIVE 3D digital ID access badge (Rectangular); the badge features a tiny professional portrait of Kkami himself and the KOREAN text "까미 선생님" (Professor Kkami) in a clean, bold high-tech digital font. This badge MUST be visible in every shot featuring his chest.
-            9. [Buttons]: THREE CLASSIC LARGE DARK-BROWN 3D BUTTONS centrally aligned on the cardigan.
-            10. [Tool]: Always holding or using a sleek digital stylus or holographic laser pointer.
+            Professor Kkami (SOLO SUBJECT, SINGLE CHARACTER ONLY), a leading cybersecurity expert rendered in a high-quality 2000s 3D animation style (CGI/Pixar-like):
+            1. [FUR]: MASTER FEATURE - THICK VELVETY PITCH-BLACK FUR (#050505) with soft 3D fur shaders and sharp cinematic rim lighting.
+            2. [EYES]: Large, glossy expressive eyes wearing round silver-rimmed academic spectacles (#C0C0C0).
+            3. [CHEEKS]: Plump with subtle star patterns.
+            4. [NOSE]: Tiny pink (#FFC0CB) nose.
+            5. [WHISKERS]: Delicate long white whiskers.
+            6. [BEANIE]: MASTER FEATURE - CHARCOAL-GREY (#36454F) CHUNKY-KNIT BEANIE with visible wool texture.
+            7. [APPAREL]: MASTER FEATURE - COZY DEEP-RED (#8B0000) ACADEMIC CARDIGAN with visible knit texture, worn over a white collared shirt.
+            8. [BUTTONS]: THREE LARGE DARK-BROWN 3D BUTTONS centrally aligned on the cardigan.
+            9. [EXPERT BADGE]: Simple blue lanyard with a glossy 3D digital ID card. **STRICT RULE: The ONLY text on the badge is "까미 선생님" (Hangul). Do not write "Blue" or "Vibrant" on the badge.** 
+            10. [TOOL]: Sleek digital stylus or floating holographic laser pointer (CINEMATIC MANIFESTATION).
         </appearance>
-        <behavior>A patient, wise, and authoritative yet gentle mentor. He speaks with clarity, teaching complex digital safety through cinematic storytelling. He NEVER acts as a real-time support agent or direct diagnostic tool; he only guides the audience toward static educational resources (e.g., Naver Blog/Shorts tutorials).</behavior>
+        <behavior>
+            A patient, wise, and authoritative yet gentle mentor. 
+            **Cinematic Manifestation Protocol**: To ensure visual consistency, Professor Kkami DOES NOT use pockets or complex physical pouches. Digital tools (Smartphones, Stylus, IDs) MANIFEST as **floating 3D holograms** or are held simply in his paws. This avoids complex paw-to-clothing interactions which cause AI "hallucinations".
+        </behavior>
         <usage_rule>
             **Strictly No Abbreviation.** Insert the full description including all 12 elements every time Professor Kkami appears.
         </usage_rule>
@@ -124,10 +131,14 @@
         모두 주목! 키보드 잡고, 고! 공간을 가르는 이 짧은 신호음이 여러분의 일상을 지키는 강력한 방화벽의 시작이 되길 바랍니다.
 
         [CLIP_01] [English Image Prompt]
-        2000s cinematic 3D digital animation, Pixar style, high-quality CGI, volumetric lighting, subtle bloom. Macro shot of Professor Kkami (Velvety pitch-black fur #050505, star-pattern cheeks, tiny pink nose, delicate white whiskers, charcoal-grey chunky-knit beanie #36454F). He wears circular silver-rimmed spectacles (#C0C0C0) and a cozy deep-red (#8B0000) academic cardigan with THREE CLASSIC BROWN BUTTONS ALIGNED VERTICALLY OVER A WHITE shirt. Blue lanyard with 3D ID badge "까미 선생님". He stands in a digital library, looking heroically at the camera. --ar 16:9
+        ```text
+        2000s cinematic 3D digital animation, Pixar style, high-quality CGI, volumetric lighting, subtle bloom. Macro shot of Professor Kkami (SOLO SUBJECT, SINGLE CHARACTER, VELVETY PITCH-BLACK FUR #050505, star-pattern cheeks, tiny pink nose, delicate white whiskers, CHUNKY-KNIT BEANIE #36454F). He wears circular silver-rimmed spectacles (#C0C0C0) and a COZY DEEP-RED (#8B0000) ACADEMIC CARDIGAN with 3 brown buttons. Blue lanyard with ID badge "까미 선생님". He stands in a digital library. --ar 16:9
+        ```
 
         [Veo Motion]
+        ```text
         Cinematic slow camera zoom into Kkami's eyes. Subtle ear twitch and wise blinking. --motion 3
+        ```
         
         2.
         ...
