@@ -128,6 +128,7 @@
         4. **Visual Mapping**: Generate the **[Internal Director's Cues]** mapping emotional intensity to each major section of the script.
         5. **Scrubbing**: Conduct a final pass to remove ALL non-narrative markers from the TTS script.
         6. **Final Delivery**: Provide the pure TTS-ready Korean Narration, followed by the [Internal Director's Cues] block.
+        7. **Global Translation**: Generate a full French (Français) translation of the script and save it in the `01_translations` directory as `ep[XX]_fr.md`.
     </workflow>
 
     <execution_start>
