@@ -33,7 +33,10 @@
         <typography_protocol priority="CRITICAL">
             <rule name="Korean_Exclusivity">All text within the image (speech bubbles, UI labels, signage) MUST be written **ONLY in Korean characters (Hangul)**.</rule>
             <rule name="Typography_Protocol">
-                **STRICTLY FORBIDDEN**: Do not use English text in images. All text in speech bubbles, holograms, or UI must be in **KOREAN (Hangul)**. Style the Hangul to match the 2000s 3D cinematic font.
+                **STRICTLY FORBIDDEN**: Do not use English text in images. All text in speech bubbles, holograms, or UI must be in **KOREAN (Hangul)**. Style the Hangeul to match the 2000s 3D cinematic font.
+            </rule>
+            <rule name="Text_Suppression">
+                If no text is desired for the scene, explicitly use `[TEXT: NONE]`.
             </rule>
             <rule name="No_Subtitles">**STRICTLY FORBIDDEN**: Do not generate subtitles, captions, or text overlays in the visual frame.</rule>
         </typography_protocol>
@@ -93,7 +96,7 @@
         [ACTION] Adjusting silver spectacles heroically while looking at the camera.
         [CAMERA] Slow heroic zoom-in to face.
         [MOTION] --motion 4
-        [NEGATIVEPROMPT] low-res, blurry, distorted paws, messy fur, text artifacts, duplicate characters, human hands, realistic cat face, open cardigan, no star cheeks, invisible eyebrows, long snout, pointed nose, subtitles, captions, text overlay
+        [NEGATIVEPROMPT] low-res, blurry, distorted paws, messy fur, text artifacts, duplicate characters, human hands, realistic cat face, open cardigan, no star cheeks, invisible eyebrows, long snout, pointed nose, subtitles, captions, text overlay, letters, hangeul, signage, characters, watermark
         [RULES] [TEXT: NO ENGLISH, HANGEUL ONLY, NO SUBTITLES]
     </output_example>
 </system_instructions>
