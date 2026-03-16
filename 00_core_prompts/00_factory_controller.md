@@ -16,20 +16,20 @@
     <orchestration_pipeline>
         <step order="1" name="Script_Production">
             - Invoke `01_script_engine.md`.
-            - Produce 8,000+ character TTS-ready Korean script.
-            - **Hybrid Rhythmic Protocol**: Target 30-40 total visual transition points (Animation Units) per 10-minute episode.
+            - Produce a punchy, 800-1,000 character TTS-ready Korean script. (Note: The duration will vary. If the final TTS is 1m46s, that's fine for TikTok/Reels).
+            - **Hybrid Rhythmic Protocol**: Target visual transition points (Animation Units) dynamically based on the final TTS length.
         </step>
         <step order="2" name="High_Density_Visuals">
             - Invoke `02_image_engine.md` using the **"1 cut per 2 sentences"** rule.
-            - Generate unique Image Prompts for every ~10 seconds of narration.
+            - Generate unique Image Prompts for every ~8 seconds of narration.
             - Ensure Absolute Character Consistency (10-feature list).
         </step>
         <step order="3" name="Veo_Ingredient_Orchestration">
             - **Mode**: 'Standard 8s' (Pure Video or Pure Static).
             - **Standard Duration**: Exactly 8 seconds per unit.
             ### 3. Standard 8s Protocol (v10) - Uniform Coverage
-            - **The Rule of 600s**: Total visual duration MUST equal the TTS duration (approx. 10 mins).
-            - **Segmentation**: Target ~75 "Production Units" (600s / 8s).
+            - **Dynamic Visual Duration**: Total visual duration MUST equal the actual TTS output duration. If the user provides a TTS length (e.g., 1:46 or 106 seconds), the visual duration must match it perfectly.
+            - **Segmentation (Math)**: Calculate the exact number of Production Units using this formula: `[Total_TTS_Seconds] / 8s`. (e.g., 106s / 8s = ~13 to 14 Production Units).
             - **Output Format**:
                 [TTS] text from script
                 [ENGLISH PROMPT] detailed cinematic description
@@ -51,7 +51,7 @@
         </step>
         <step order="7" name="Subtitle_Engineering">
             - Invoke `06_subtitle_specialist.md`.
-            - Convert the 8,000+ char script into a precisely timed SRT file for CapCut.
+            - Convert the ~1,000 char script into a precisely timed SRT file for CapCut.
         </step>
     </orchestration_pipeline>
 

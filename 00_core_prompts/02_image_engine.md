@@ -47,8 +47,9 @@
             Remove all timestamps from script. Retain pure narration text only.
         </step>
         <step order="2" name="Modular_Segmentation_v11">
-            - **Goal**: Cover narration using exact **8-second blocks**.
-            - **The 8s Rule**: Every Production Unit corresponds to exactly 8 seconds of narration (approx. 35-40 Korean characters).
+            - **Goal**: Cover the entire audio narration using exact **8-second blocks**.
+            - **The 8s Dynamic Rule**: Ask the user for the exact length of the final TTS audio (in seconds). Calculate the number of blocks: `[Total_TTS_Seconds] / 8`.
+            - **Example**: If TTS is 1:46 (106 seconds), you MUST generate exactly 13 to 14 blocks.
             - **Output Strategy**: For each block, generate the full v11 Modular Schema.
         </step>
     </workflow>
